@@ -1,8 +1,11 @@
 # Prerequisites
 *.d
 *.pdf
+<<<<<<< HEAD
 .vscode/
 
+=======
+>>>>>>> 8f29a4df978ede4d18cecd174db4aeb7dd3c1116
 # Object files
 *.o
 *.ko
