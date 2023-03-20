@@ -1,5 +1,7 @@
 # Prerequisites
 *.d
+*.pdf
+.vscode/
 
 # Object files
 *.o
