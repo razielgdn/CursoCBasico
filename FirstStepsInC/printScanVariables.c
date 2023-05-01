@@ -103,28 +103,28 @@ int main (){
 
 int funcionSuma(int num1, int num2)
 {
-	int resultado=0;
+	int resultado=0; //Variable local, solo existe dentro de la funcion
 	resultado = num1+num2;
 	return resultado;
 }
 
 int funcionResta(int num1, int num2)
 {
-	int resultado = 0;	
+	int resultado = 0;	//Variable local, solo existe dentro de la funcion
 	resultado =num1-num2;
 	return resultado;	
 
 }
 int funcionMultiplicacion(int num1, int num2)
 {
-	int multiplica;
+	int multiplica; //Variable local, solo existe dentro de la funcion
 	multiplica = num1 * num2;	
 	return multiplica;
 }
 
 float funcionDivision(int num1,int num2)
 {
-	float resultado=0.0;
+	float resultado=0.0; //Variable local, solo existe dentro de la funcion
 	resultado= (float)num1/num2;
 	return resultado;
 }
