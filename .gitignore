@@ -2,6 +2,11 @@
 *.d
 *.pdf
 .vscode/
+controlSentences/build/
+controlSentences/cmake_install.cmake 
+controlSentences/Makefile
+controlSentences/CMakeFiles
+
 # Object files
 *.o
 *.ko

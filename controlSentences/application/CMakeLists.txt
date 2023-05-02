@@ -1,0 +1,1 @@
+add_library(application SHARED comparacion.c comparacion.h)

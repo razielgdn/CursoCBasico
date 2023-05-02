@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.0)
+
+project(controlSentencesProject)
+add_subdirectory(application)
+
+add_executable(controlSentencesProject SentenciasDeControl.c )
+target_link_libraries(controlSentencesProject application)
+
+target_include_directories(controlSentencesProject PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
