@@ -16,3 +16,21 @@ int numeroMayor(int primero, int segundo){
     return mayor;
     
 }
+int MayorDeTres(int numA, int numB, int numC){
+    int mayor=0;
+    if (numA >numB ){
+        mayor=numA;
+    }
+    else 
+    {
+        if (numB > numC)
+        {    
+            mayor= numB; 
+        }
+        else
+        {   
+            mayor=numC;
+        }
+    }
+    return mayor;   
+}
