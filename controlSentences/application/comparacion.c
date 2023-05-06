@@ -1,7 +1,6 @@
-/**
- * La funcion mayor retorna el mayor de dos números
- **/
-
+/*
+*La funcion numero mayor toma como parametros dos números y regresa el mayor de ambos.
+*/
 int numeroMayor(int primero, int segundo)
 {
     int mayor = 0;
@@ -17,7 +16,10 @@ int numeroMayor(int primero, int segundo)
     return mayor;
     
 }
-int MayorDeTres(int numA, int numB, int numC)
+/*
+*La funcion numero mayor toma como parametros tres números y regresa el mayor del grupo.
+*/
+int mayorDeTres(int numA, int numB, int numC)
 {
     int mayor=0;
     if (numA > numB ){
@@ -36,7 +38,9 @@ int MayorDeTres(int numA, int numB, int numC)
     }
     return mayor;   
 }
-
+/*
+*La funcion numero mayor toma como parametros tres números y regresa el mayor del grupo.
+*/
 int numeroMenor(int primero, int segundo)
 {
     int menor=0;
@@ -52,6 +56,9 @@ int numeroMenor(int primero, int segundo)
     return menor;
     
 }
+/*
+*La funcion numero mayor toma como parametros tres números y regresa el mayor del grupo.
+*/
 int menorDeTres(int numA, int numB, int numC)
 {
     int menor=0;
